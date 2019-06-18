@@ -22,7 +22,7 @@
 # AWC使用
 1.进入官网目录
 2.AWC -h获取指令相关帮助
-![Image text](https://raw.githubusercontent.com/CDzhou/37AWC/master/images/%E5%9B%BE%E7%89%87%201.png)
+![Image text](https://raw.githubusercontent.com/CDzhou/37AWC/master/images/2.png)
 
 # AWC核心原理剖析
-![Image text](https://raw.githubusercontent.com/CDzhou/37AWC/master/images/2.png)
+![Image text](https://raw.githubusercontent.com/CDzhou/37AWC/master/images/%E5%9B%BE%E7%89%87%201.png)
