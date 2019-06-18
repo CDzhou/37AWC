@@ -1,0 +1,42 @@
+{
+    "WD1": [
+        "@btn-fast-h",
+        "@btn-fast",
+        "@btn-frash",
+        "@btn-frash-h",
+        "@ser-bg",
+        "@log-bg",
+        "@reg-bg",
+        "@btn-log-h",
+        "@btn-log",
+        "@btn-to-log",
+        "@btn-to-reg",
+        "@btn-reg",
+        "@btn-reg-h",
+        "@check-on",
+        "@check",
+        "@btn-s",
+        "@btn-s-h"
+    ],
+    "WD2": [
+        "@btn-fast-h",
+        "@btn-fast",
+        "@btn-refresh-h",
+        "@btn-refresh",
+        "@ser-bg",
+        "@log-bg",
+        "@reg-bg",
+        "@btn-log-h",
+        "@btn-log",
+        "@btn-to-log",
+        "@btn-to-reg",
+        "@btn-reg",
+        "@btn-reg-h",
+        "@check-on",
+        "@check",
+        "@btn-s",
+        "@btn-s-h",
+        "@kv-a",
+        "@kv-a-on"
+    ]
+}

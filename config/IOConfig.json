@@ -1,0 +1,32 @@
+[
+    {
+        "psdName":"index",
+        "_comment":"首页",
+        "outPutDir":"/css/images"
+    },
+    {
+        "psdName":"server",
+        "_comment":"服务器列表页",
+        "outPutDir":"/css/images/s-images"
+    },
+    {
+        "psdName":"opening",
+        "_comment":"开服页",
+        "outPutDir":"/opening/css/images"
+    },
+    {
+        "psdName":"wap",
+        "_comment":"手机官网",
+        "outPutDir":"/wap/css/images"
+    },
+    {
+        "psdName":"wapDetail",
+        "_comment":"手机内页",
+        "outPutDir":"/wap/css/images"
+    },
+    {
+        "psdName":"news",
+        "_comment":"新闻页",
+        "outPutDir":"/css/images"
+    }
+]

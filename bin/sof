@@ -1,0 +1,54 @@
+#!/usr/bin/env node --harmony
+'use strict'
+
+process.env.NODE_PATH = __dirname + '/../node_modules/'
+
+const program = require('commander');
+var colors = require('colors');
+
+program
+  .version(`require('../package').version`)
+
+program
+  .usage('<command>')
+
+
+program
+  .command('init [dirname]')
+  .description('初始化|awc init [dirname]========[dirname]项目名')
+  .action((dirname) => {
+    if(!dirname) {
+      console.log(`[error] 无效的项目名`.red);
+      program.help()
+      return;
+    }
+    require('../command/initGameSite')(dirname)
+  })
+
+  program
+  .command('wd [dirname]')
+  .description('微端|awc wd [dirname]========[dirname]项目名')
+  .action((dirname) => {
+    if(!dirname) {
+      console.log(`[error] 无效的项目名`.red);
+      program.help()
+      return;
+    }
+    require('../command/initWD')(dirname)
+  })
+  program
+  .command('cut [dirname]')
+  .description('切图|awc cut [dirname]========[dirname]项目名')
+  .action((dirname) => {
+    if(!dirname) {
+      console.log(`[error] 无效的项目名`.red);
+      program.help()
+      return;
+    }
+    require('../command/cut')(dirname)
+  })
+program.parse(process.argv)
+
+if (!program.args.length) {
+  program.help()
+}
